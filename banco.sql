@@ -28,6 +28,7 @@ CREATE TABLE IF NOT EXISTS `likes` (
   `user_id` int(11) DEFAULT NULL,
   `from` int(11) NOT NULL,
   `created` datetime NOT NULL,
+  `modified` datetime NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
 
